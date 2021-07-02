@@ -1,4 +1,5 @@
 library(plumber)
+library(openssl)
 
 port <- Sys.getenv('PORT')
 
