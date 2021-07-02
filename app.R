@@ -1,5 +1,6 @@
 library(plumber)
-library(openssl)
+library(tidyquant)
+library(tidyverse)
 
 port <- Sys.getenv('PORT')
 
